@@ -23,8 +23,8 @@
 ## 🚀 快速开始
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/你的用户名/C++11-Cross-Platform-Judge.git
-cd C++11-Cross-Platform-Judge
+git clone https://github.com/Echo-Long/C-11-Cross-Platform-Judge
+cd C-11-Cross-Platform-Judge
 ```
 
 ### 2. 编译评测机

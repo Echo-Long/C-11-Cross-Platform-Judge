@@ -27,7 +27,7 @@ def read_file_lines(file_path: str) -> List[str]:
     if not os.path.exists(file_path):
         return []
     try:
-        with open(file_path, "r", encoding="utf-8", newline="") 
+        with open(file_path, "r", encoding="utf-8", newline="") :
             return [line.rstrip("\r") for line in f.readlines()]
     except Exception as e:
         return [f"Read file error: {str(e)}"]
@@ -296,3 +296,4 @@ Examples:
 
 if __name__ == "__main__":
     main()
+
